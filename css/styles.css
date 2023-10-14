@@ -10897,6 +10897,15 @@ hr.divider {
   opacity: 1;
 }
 
+/* hr.divider2 {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: #1d3557;
+  /* background-color: #f4623a; */
+  opacity: 1;
+} */
+
 hr.divider-light {
   background-color: #fff;
 }
@@ -10973,6 +10982,41 @@ header.masthead {
   background-attachment: fixed;
   background-size: cover;
 }
+header.masthead2 {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(to bottom, rgba(244,241,222, 0.3) 0%, rgba(244,241,222, 0.3) 100%), url("../assets/img/bg-masthead.jpg");
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/flowers.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header.masthead2 h1, header.masthead2 .h1 {
+  font-size: 2.25rem;
+}
+@media (min-width: 992px) {
+  header.masthead2 {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 4.5rem;
+    padding-bottom: 0;
+  }
+  header.masthead2 p {
+    font-size: 1.15rem;
+  }
+  header.masthead2 h1, header.masthead2 .h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead2 h1, header.masthead2 .h1 {
+    font-size: 3.5rem;
+  }
+}
+
+
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
 }
