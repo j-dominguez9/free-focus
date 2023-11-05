@@ -11313,3 +11313,39 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+/* About us Section */
+
+.title_spectial {
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-github {
+  background: var(light);
+  color: black;
+}
+
+.fa-linkedin {
+  background: var(light);
+  color: #0E76A8;
+}
